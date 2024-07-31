@@ -1,5 +1,5 @@
 import Agents from './Agents/Agents'
-import Articles from './Agents/Agents'
+import Articles from './Articles/Articles'
 import Contact from './Contact/Contacts'
 import Ideas from './Ideas/Ideas'
 import Overview from './Overview/Overview'

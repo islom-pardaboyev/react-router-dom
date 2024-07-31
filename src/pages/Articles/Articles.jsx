@@ -1,8 +1,12 @@
 import React from 'react'
+import AccountAbout from "../../components/AccountAbout";
 
 function Articles() {
   return (
-    <div>Articles</div>
+    <div className="flex items-center justify-between">
+    <p className="leading-[30.12px] font-bold text-[24px]">Articles</p>
+    <AccountAbout/>
+  </div>
   )
 }
 

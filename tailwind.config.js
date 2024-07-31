@@ -8,7 +8,15 @@ export default {
     extend: {
       colors: {
         navBg: "#363740",
-        gray: "#A4A6B3",
+        gray: {
+          DEFAULT: "#A4A6B3",
+          10: "#DFE0EB",
+          20: "#F7F8FC",
+          30: "#9FA2B4"
+        },
+        purple: {
+          DEFAULT: "#3751FF"
+        }
       }
     },
   },
