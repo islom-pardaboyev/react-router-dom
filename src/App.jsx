@@ -7,7 +7,7 @@ function App() {
     <section className="w-screen h-screen overflow-hidden">
       <div className="flex">
         <Navbar />
-        <main className="px-[30px] pt-[30px]  bg-gray-20 w-full">
+        <main className="px-[30px] pt-[30px] h-screen overflow-y-auto bg-gray-20 w-full">
           <CustomRoutes />
         </main>
       </div>
