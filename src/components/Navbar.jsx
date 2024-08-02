@@ -9,7 +9,7 @@ import {
   ContactLogo,
   SettingsLogo,
   SubscriptionLogo,
-} from "./Icons";
+} from "../Icons";
 import { NavLink } from "react-router-dom";
 
 function Navbar({ extraStyle }) {

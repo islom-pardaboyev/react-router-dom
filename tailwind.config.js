@@ -13,10 +13,12 @@ export default {
           10: "#DFE0EB",
           20: "#F7F8FC",
           30: "#9FA2B4",
-          40: "#F0F1F7"
+          40: "#F0F1F7",
+          50: "#C5C7CD"
         },
         dark: {
-          DEFAULT: "#252733"
+          DEFAULT: "#252733",
+          100: "#4B506D"
         },
         yellow: {
           DEFAULT: "#FEC400"

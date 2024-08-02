@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchIcon, NotificationIcon } from "../components/Icons";
+import { SearchIcon, NotificationIcon } from "../Icons";
 import AvatarImg from "../assets/images/photo.png";
 
 function AccountAbout() {
