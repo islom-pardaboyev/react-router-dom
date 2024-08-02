@@ -28,6 +28,9 @@ export default {
         },
         purple: {
           DEFAULT: "#3751FF"
+        },
+        red: {
+          DEFAULTL: "#F12B2C"
         }
       }
     },
