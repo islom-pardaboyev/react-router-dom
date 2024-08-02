@@ -30,7 +30,7 @@ export default {
           DEFAULT: "#3751FF"
         },
         red: {
-          DEFAULTL: "#F12B2C"
+          DEFAULT: "#F12B2C"
         }
       }
     },
