@@ -5,7 +5,7 @@ import TicketCard from "../../components/TicketCard";
 import { Context } from "../../context/context";
 
 function Tickets() {
-  const { usersData } = useContext(Context);
+  const { usersData, sortedArray } = useContext(Context);
   const tickets = usersData.map((ticket, index) => (
     <TicketCard
       key={index + 1}
@@ -28,12 +28,12 @@ function Tickets() {
             All tickets
           </h1>
           <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
+            <button onClick={sortedArray} className="flex items-center gap-2">
               <SortIcon />
               <p className="leading-[20px] font-semibold text-[14px] text-dark-100">
                 Sort
               </p>
-            </div>
+            </button>
             <div className="flex items-center gap-2">
               <FilterIcon />
               <p className="leading-[20px] font-semibold text-[14px] text-dark-100">
