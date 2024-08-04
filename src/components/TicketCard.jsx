@@ -1,21 +1,19 @@
-import { AvatarImg } from "../Icons";
+import React from "react";
 
-export default function TicketCard({
-  ticketName,
-  customerName,
-  date,
-  status,
-}) {
-  const bgColor = {
-    high: "bg-red",
-    low: "bg-yellow",
-    normal: "bg-green",
-  }[status] || "";
+export default function TicketCard({ ticketName, img, customerName, date, status }) {
+  const bgColor =
+    status === "high"
+      ? "bg-red"
+      : status === "low"
+      ? "bg-yellow"
+      : status === "normal"
+      ? "bg-green"
+      : "";
 
   return (
     <div className="py-6 min-h-[92px] px-[31px] border max-h-full">
       <div className="flex items-center gap-6">
-        <AvatarImg />
+        <img src={img} width={44} height={44} className="rounded-full" alt={`${customerName} profile`} />
         <div className="min-w-[42%] flex flex-col gap-2 max-w-full">
           <h1 className="font-semibold text-[14px] leading-[20px] tracking-[0.2px] text-dark">
             {ticketName}
@@ -49,4 +47,3 @@ export default function TicketCard({
     </div>
   );
 }
-
