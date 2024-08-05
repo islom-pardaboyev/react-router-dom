@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TicketCard({ ticketName, img, customerName, date, status }) {
   const bgColor =
-    status === "high"
+    status === "hight"
       ? "bg-red"
       : status === "low"
       ? "bg-yellow"

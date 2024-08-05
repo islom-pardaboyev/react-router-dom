@@ -38,7 +38,7 @@ function AddTicketsData() {
             <label className="flex flex-col">
               <span>Priority</span>
               <select name="priority" className="border-[1.5px] px-2 py-1 border-black rounded-md outline-none">
-                 <option value="hight">Hight</option>
+                 <option selected value="hight">Hight</option>
                  <option value="normal">Normal</option>
                  <option value="low">Low</option>
               </select>
